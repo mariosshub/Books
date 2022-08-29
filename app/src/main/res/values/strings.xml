@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name" translatable="false">Bookstore App</string>
+    <string name="welcome">Welcome to Bookstore App</string>
+    <string name="logout">Logout</string>
+    <string name="price">Price</string>
+    <string name="allbooks">Show Books</string>
+    <string name="addCart">Add to cart</string>
+    <string name="viewCart">View Cart</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="buy_button">Buy Book</string>
+    <string name="book_name">Book Name:</string>
+    <string name="author_name">Author: </string>
+    <string name="priceBook">Price: </string>
+    <string name="copiesBook">Copies: </string>
+    <string name="description">Description: </string>
+    <string name="registration">Registration</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="voice" translatable="false">Voice Rec</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="admin">Get Admin Role</string>
+    <string name="signin_txt">New here? Sign up now</string>
+    <string name="payment">Payment</string>
+    <string name="amount">Amount</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="order">Your Order</string>
+    <string name="totalPrice">Total Price</string>
+    <string name="books">Books:</string>
+    <string name="orderBtn">Place Order</string>
+    <string name="adminPage">Admin Page</string>
+    <string name="insertBooks">Insert Books</string>
+    <string name="displayBooks">Display Books</string>
+    <string name="bookAuthor">Authors Name</string>
+    <string name="bookName">Books Name</string>
+    <string name="bookPrice">Price</string>
+    <string name="bookimg">Paste Image Url</string>
+    <string name="bookDescription">Description</string>
+    <string name="bookCopies">Copies</string>
+    <string name="addBook">Add Book</string>
+    <string name="books_left">%1$d Books left!</string>
+    <string name="price_tag">%1$f £</string>
+    <string name="available_books">Available Books</string>
+</resources>

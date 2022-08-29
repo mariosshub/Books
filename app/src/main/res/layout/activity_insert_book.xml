@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InsertBookActivity">
+
+        <TextView
+            android:id="@+id/textViewInsertBooks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:text="@string/insertBooks"
+            android:textColor="#009688"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextBookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:hint="@string/bookName"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/textViewInsertBooks"
+            app:layout_constraintHorizontal_bias="0.479"
+            app:layout_constraintStart_toStartOf="@+id/textViewInsertBooks"
+            app:layout_constraintTop_toBottomOf="@+id/textViewInsertBooks" />
+
+        <EditText
+            android:id="@+id/editTextAuthorsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="@string/bookAuthor"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/editTextBookName"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextBookName"
+            app:layout_constraintTop_toBottomOf="@+id/editTextBookName" />
+
+        <EditText
+            android:id="@+id/editTextBookPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="5"
+            android:hint="@string/bookPrice"
+            android:inputType="number"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/editTextAuthorsName"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="@+id/editTextAuthorsName"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAuthorsName" />
+
+        <EditText
+            android:id="@+id/editTextBookImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="@string/bookimg"
+            android:inputType="textPersonName"
+            android:maxLength="255"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/editTextBookPrice"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="@+id/editTextBookPrice"
+            app:layout_constraintTop_toBottomOf="@+id/editTextBookPrice" />
+
+        <EditText
+            android:id="@+id/editTextBookCopies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="5"
+            android:hint="@string/bookCopies"
+            android:inputType="number"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/editTextBookDescr"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="@+id/editTextBookDescr"
+            app:layout_constraintTop_toBottomOf="@+id/editTextBookDescr" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#005D88"
+            android:onClick="addBook"
+            android:text="@string/addBook"
+            app:layout_constraintEnd_toEndOf="@+id/editTextBookCopies"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextBookCopies"
+            app:layout_constraintTop_toBottomOf="@+id/editTextBookCopies" />
+
+        <EditText
+            android:id="@+id/editTextBookDescr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/bookDescription"
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/editTextBookImg"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextBookImg"
+            app:layout_constraintTop_toBottomOf="@+id/editTextBookImg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminMenuActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="#D24CAF50"
+        android:text="@string/adminPage"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonInsertBookForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#006796"
+        android:onClick="insertBooks"
+        android:text="@string/insertBooks"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonDisplayBooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#005D88"
+        android:onClick="displayBooks"
+        android:text="@string/displayBooks"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInsertBookForm"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/buttonInsertBookForm"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInsertBookForm" />
+
+    <Button
+        android:id="@+id/adminMenuLogoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#005D88"
+        android:onClick="logout"
+        android:text="@string/logout"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDisplayBooks"
+        app:layout_constraintStart_toStartOf="@+id/buttonDisplayBooks"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDisplayBooks" />
+</androidx.constraintlayout.widget.ConstraintLayout>

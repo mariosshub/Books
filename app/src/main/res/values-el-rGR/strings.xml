@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Καλωσήρθατε στο Bookstore App</string>
+    <string name="logout">Αποσύνδεση</string>
+    <string name="price">Τιμή</string>
+    <string name="allbooks">Εμφάνιση Βιβλίων</string>
+    <string name="addCart">Εισαγωγή στο Καλάθι</string>
+    <string name="viewCart">Το Καλάθι μου</string>
+    <string name="your_cart">Το Καλάθι μου</string>
+    <string name="buy_button">Αγορά</string>
+    <string name="book_name">Όνομα βιβλίου:</string>
+    <string name="author_name">Συγγραφέας:</string>
+    <string name="priceBook">Τιμή:</string>
+    <string name="copiesBook">Αντίγραφα:</string>
+    <string name="description">Περιγραφή:</string>
+    <string name="registration">Εγγραφή</string>
+    <string name="login">Σύνδεση</string>
+    <string name="signup">Εγγραφή</string>
+    <string name="fname">Όνομα</string>
+    <string name="lname">Επώνυμο</string>
+    <string name="password">Κωδικός</string>
+    <string name="admin">Γίνε Διαχειριστής</string>
+    <string name="signin_txt">Καινούργιος εδώ; Εγγράψου τώρα</string>
+    <string name="payment">Πληρωμή</string>
+    <string name="amount">Ποσότητα</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="order">Η παραγγελία σου</string>
+    <string name="totalPrice">Τιμή</string>
+    <string name="books">Βιβλία</string>
+    <string name="orderBtn">παραγγελία</string>
+    <string name="adminPage">Σελίδα Διαχειριστή</string>
+    <string name="insertBooks">Εισαγωγή Βιβλίου</string>
+    <string name="displayBooks">Εμφάνιση Βιβλίων</string>
+    <string name="bookAuthor">Όνομα Συγγραφέα</string>
+    <string name="bookName">Όνομα Βιβλίου</string>
+    <string name="bookPrice">Τιμή</string>
+    <string name="bookimg">Σύνδεσμος εικόνας</string>
+    <string name="bookDescription">Περιγραφή</string>
+    <string name="bookCopies">Αντίγραφα</string>
+    <string name="addBook">Προσθήκη</string>
+    <string name="books_left">%1$d Βιβλία διαθέσιμα!</string>
+    <string name="price_tag">%1$f €</string>
+    <string name="available_books">Διαθέσιμα βιβλία</string>
+</resources>
